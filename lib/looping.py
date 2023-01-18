@@ -23,3 +23,9 @@ def fizzbuzz():
         else:
             print(i)
         i += 1
+
+def reverse_string(str):
+    reverse = ""
+    for char in str:
+        reverse = char + reverse
+    return reverse
